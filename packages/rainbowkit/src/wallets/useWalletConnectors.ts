@@ -1,4 +1,7 @@
+/* eslint-disable no-console */
+import { useEffect } from 'react';
 import { Connector, useConnect } from 'wagmi';
+import { InjectedConnector } from 'wagmi/connectors/injected';
 import { flatten } from '../utils/flatten';
 import { indexBy } from '../utils/indexBy';
 import { isNotNullish } from '../utils/isNotNullish';
@@ -21,6 +24,25 @@ export interface WalletConnector extends WalletInstance {
 }
 
 export function useWalletConnectors(): WalletConnector[] {
+  useEffect(() => {
+    // window debug logs before connectors are prepared
+    console.log('> preparing connectors on render');
+    if (typeof window !== 'undefined' && window.ethereum) {
+      console.log('window.ethereum is detected');
+      if (window.ethereum?.providers)
+        console.log('window.ethereum.providers is detected');
+      console.log(
+        `window.ethereum.isMetaMask is ${window.ethereum?.isMetaMask}`
+      );
+      console.log(`window.ethereum.isRainbow is ${window.ethereum?.isRainbow}`);
+      const connector = new InjectedConnector();
+      if (connector.ready) console.log('wagmi connector is ready');
+      else console.log('wagmi connector is not ready');
+    } else {
+      console.log('window.ethereum is not detected');
+    }
+  }, []);
+
   const rainbowKitChains = useRainbowKitChains();
   const intialChainId = useInitialChainId();
   const { connectAsync, connectors: defaultConnectors_untyped } = useConnect();
