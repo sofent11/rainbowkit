@@ -105,6 +105,32 @@ export const rainbowWallet = ({
               },
             }
           : undefined,
+        extension: {
+          instructions: {
+            learnMoreUrl:
+              'https://support.rainbow.me/en/articles/7963645-connecting-and-disconnecting-dapps',
+            steps: [
+              {
+                description:
+                  'wallet_connectors.rainbow.extension.step1.description',
+                step: 'install',
+                title: 'wallet_connectors.rainbow.extension.step1.title',
+              },
+              {
+                description:
+                  'wallet_connectors.rainbow.extension.step2.description',
+                step: 'create',
+                title: 'wallet_connectors.rainbow.extension.step2.title',
+              },
+              {
+                description:
+                  'wallet_connectors.rainbow.extension.step3.description',
+                step: 'refresh',
+                title: 'wallet_connectors.rainbow.extension.step3.title',
+              },
+            ],
+          },
+        },
       };
     },
   };
