@@ -65,7 +65,7 @@ export const rainbowWallet = ({
       const getUri = async () => {
         const uri = await getWalletConnectUri(connector, walletConnectVersion);
         return isAndroid()
-          ? uri
+          ? `${uri}&connector=rainbowkit`
           : isIOS()
           ? `rainbow://wc?uri=${encodeURIComponent(uri)}&connector=rainbowkit`
           : `https://rnbwapp.com/wc?uri=${encodeURIComponent(
