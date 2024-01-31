@@ -1,0 +1,984 @@
+{
+  "connect_wallet": {
+    "label": "連接錢包"
+  },
+  "intro": {
+    "title": "什麼是錢包？",
+    "description": "錢包用於發送、接收、存儲和顯示數字資產。它也是一種新型的登錄方式，無需在每個網站上創建新賬戶和密碼。",
+    "digital_asset": {
+      "title": "您的數字資產之家",
+      "description": "錢包用於發送、接收、存儲和顯示像以太坊和NFT這樣的數字資產。"
+    },
+    "login": {
+      "title": "一種新的登錄方式",
+      "description": "而不是在每個網站上創建新的賬戶和密碼，只需連接您的錢包。"
+    },
+    "get": {
+      "label": "獲取錢包"
+    },
+    "learn_more": {
+      "label": "了解更多"
+    }
+  },
+  "sign_in": {
+    "label": "驗證您的賬戶",
+    "description": "為了完成連接，您必須在錢包中簽署一條消息，以驗證您是此賬戶的所有者。",
+    "message": {
+      "send": "發送消息",
+      "preparing": "準備消息中...",
+      "cancel": "取消",
+      "preparing_error": "準備消息時出錯，請重試！"
+    },
+    "signature": {
+      "waiting": "等待簽名...",
+      "verifying": "正在驗證簽名...",
+      "signing_error": "簽署消息時出錯，請重試！",
+      "verifying_error": "驗證簽名時出錯，請重試！",
+      "oops_error": "哎呀，出了點問題！"
+    }
+  },
+  "connect": {
+    "label": "連接",
+    "title": "連接錢包",
+    "new_to_ethereum": {
+      "description": "對以太坊錢包不熟悉？",
+      "learn_more": {
+        "label": "了解更多"
+      }
+    },
+    "learn_more": {
+      "label": "了解更多"
+    },
+    "recent": "近期",
+    "status": {
+      "opening": "正在打開 %{wallet}...",
+      "connecting": "正在連接",
+      "connect_mobile": "在 %{wallet}中繼續",
+      "not_installed": "%{wallet} 尚未安裝",
+      "not_available": "%{wallet} 不可用",
+      "confirm": "在擴展中確認連接",
+      "confirm_mobile": "在錢包中接受連接請求"
+    },
+    "secondary_action": {
+      "get": {
+        "description": "沒有 %{wallet}嗎？",
+        "label": "獲取"
+      },
+      "install": {
+        "label": "安裝"
+      },
+      "retry": {
+        "label": "重試"
+      }
+    },
+    "walletconnect": {
+      "description": {
+        "full": "需要官方的 WalletConnect 彈窗嗎？",
+        "compact": "需要 WalletConnect 彈窗嗎？"
+      },
+      "open": {
+        "label": "打開"
+      }
+    }
+  },
+  "connect_scan": {
+    "title": "使用 %{wallet}掃描",
+    "fallback_title": "使用您的手機掃描"
+  },
+  "connector_group": {
+    "recommended": "推薦",
+    "other": "其他",
+    "popular": "流行",
+    "more": "更多",
+    "others": "其他的"
+  },
+  "get": {
+    "title": "獲取一個錢包",
+    "action": {
+      "label": "獲取"
+    },
+    "mobile": {
+      "description": "移動錢包"
+    },
+    "extension": {
+      "description": "瀏覽器擴展"
+    },
+    "mobile_and_extension": {
+      "description": "移動錢包和擴展"
+    },
+    "mobile_and_desktop": {
+      "description": "移動和桌面錢包"
+    },
+    "looking_for": {
+      "title": "不是你要找的嗎？",
+      "mobile": {
+        "description": "在主屏幕上選擇一個錢包，以開始使用不同的錢包提供商。"
+      },
+      "desktop": {
+        "compact_description": "在主屏幕上選擇一個錢包，以開始使用不同的錢包提供商。",
+        "wide_description": "在左側選擇一個錢包，以開始使用不同的錢包提供商。"
+      }
+    }
+  },
+  "get_options": {
+    "title": "開始使用 %{wallet}",
+    "short_title": "獲取 %{wallet}",
+    "mobile": {
+      "title": "%{wallet} 用於移動",
+      "description": "使用移動錢包探索以太坊的世界。",
+      "download": {
+        "label": "獲取應用"
+      }
+    },
+    "extension": {
+      "title": "%{wallet} 為 %{browser}",
+      "description": "從您最喜愛的網絡瀏覽器直接訪問您的錢包。",
+      "download": {
+        "label": "添加到 %{browser}"
+      }
+    },
+    "desktop": {
+      "title": "%{wallet} 對於 %{platform}",
+      "description": "從您強大的桌面原生訪問您的錢包。",
+      "download": {
+        "label": "添加到 %{platform}"
+      }
+    }
+  },
+  "get_mobile": {
+    "title": "安裝 %{wallet}",
+    "description": "用手機掃描下載 iOS 或 Android",
+    "continue": {
+      "label": "繼續"
+    }
+  },
+  "get_instructions": {
+    "mobile": {
+      "connect": {
+        "label": "連接"
+      },
+      "learn_more": {
+        "label": "了解更多"
+      }
+    },
+    "extension": {
+      "refresh": {
+        "label": "刷新"
+      },
+      "learn_more": {
+        "label": "了解更多"
+      }
+    },
+    "desktop": {
+      "connect": {
+        "label": "連接"
+      },
+      "learn_more": {
+        "label": "了解更多"
+      }
+    }
+  },
+  "chains": {
+    "title": "切換網絡",
+    "wrong_network": "檢測到錯誤的網絡，請切換或斷開連接以繼續。",
+    "confirm": "在錢包中確認",
+    "switching_not_supported": "您的錢包不支持從 %{appName}切換網絡。請嘗試從您的錢包內部切換網絡。",
+    "switching_not_supported_fallback": "您的錢包不支持從此應用切換網絡。嘗試從您的錢包內切換網絡。",
+    "disconnect": "斷開連接",
+    "connected": "已連接"
+  },
+  "profile": {
+    "disconnect": {
+      "label": "斷開連接"
+    },
+    "copy_address": {
+      "label": "複製地址",
+      "copied": "已複製！"
+    },
+    "explorer": {
+      "label": "在瀏覽器上查看更多"
+    },
+    "transactions": {
+      "description": "%{appName} 交易將會出現在這裡...",
+      "description_fallback": "您的交易將會出現在這裡...",
+      "recent": {
+        "title": "最近交易"
+      },
+      "clear": {
+        "label": "清除全部"
+      }
+    }
+  },
+  "wallet_connectors": {
+    "argent": {
+      "qr_code": {
+        "step1": {
+          "description": "將 Argent 放到您的主屏幕上，以便更快地訪問您的錢包。",
+          "title": "打開 Argent 應用"
+        },
+        "step2": {
+          "description": "創建錢包和用戶名，或導入現有錢包。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "在您掃描後，將出現連接提示，供您連接您的錢包。",
+          "title": "點擊掃描二維碼按鈕"
+        }
+      }
+    },
+    "bifrost": {
+      "qr_code": {
+        "step1": {
+          "description": "我們建議將Bifrost Wallet放在您的主屏幕上，以便更快地訪問。",
+          "title": "打開 Bifrost Wallet 應用"
+        },
+        "step2": {
+          "description": "使用恢復短語創建或導入錢包。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "在您掃描後，將出現連接提示，供您連接您的錢包。",
+          "title": "點擊掃描按鈕"
+        }
+      }
+    },
+    "bitget": {
+      "qr_code": {
+        "step1": {
+          "description": "我們建議您將Bitget錢包添加到主屏幕，以便更快地訪問。",
+          "title": "打開Bitget錢包應用程序"
+        },
+        "step2": {
+          "description": "務必使用安全的方法備份您的錢包。決不與任何人分享您的秘密短語。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "掃描後，將出現一個連接提示，供您連接您的錢包。",
+          "title": "點擊掃描按鈕"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "我們建議您將Bitget錢包固定在任務欄，以便更快地訪問您的錢包。",
+          "title": "安裝Bitget Wallet擴展"
+        },
+        "step2": {
+          "description": "確保使用安全的方式備份您的錢包。絕不與任何人分享您的秘密短語。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "設置錢包後，點擊下方刷新瀏覽器並加載擴展。",
+          "title": "刷新您的瀏覽器"
+        }
+      }
+    },
+    "bitski": {
+      "extension": {
+        "step1": {
+          "description": "我們建議您將Bitski固定在任務欄上，以便更快地訪問您的錢包。",
+          "title": "安裝Bitski擴展"
+        },
+        "step2": {
+          "description": "請確保用安全的方法備份您的錢包。絕不與任何人共享您的秘密短語。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "設置完您的錢包後，點擊下方以刷新瀏覽器並加載擴展程序。",
+          "title": "刷新您的瀏覽器"
+        }
+      }
+    },
+    "coin98": {
+      "qr_code": {
+        "step1": {
+          "description": "我們建議將Coin98錢包放在您的主屏幕上，以便更快地訪問您的錢包。",
+          "title": "打開Coin98錢包應用程序"
+        },
+        "step2": {
+          "description": "您可以使用我們的手機上的備份功能輕松備份您的錢包。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "掃描後，將出現一個連接提示，讓您連接您的錢包。",
+          "title": "點擊WalletConnect按鈕"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "點擊瀏覽器右上角並固定Coin98錢包，以便輕松訪問。",
+          "title": "安裝Coin98錢包擴展"
+        },
+        "step2": {
+          "description": "創建新錢包或導入現有錢包。",
+          "title": "創建或導入錢包。"
+        },
+        "step3": {
+          "description": "設置完成Coin98 錢包後，單擊下方以刷新瀏覽器並加載擴展程序。",
+          "title": "刷新您的瀏覽器"
+        }
+      }
+    },
+    "coinbase": {
+      "qr_code": {
+        "step1": {
+          "description": "我們建議您把Coinbase錢包放到主屏幕上，以便更快地訪問。",
+          "title": "打開Coinbase錢包應用"
+        },
+        "step2": {
+          "description": "您可以輕松地使用雲備份功能備份您的錢包。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "掃描後，將出現連接提示，供您連接您的錢包。",
+          "title": "點擊掃描按鈕"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "我們建議您將Coinbase錢包固定在任務欄上，以便更快地訪問您的錢包。",
+          "title": "安裝Coinbase錢包擴展"
+        },
+        "step2": {
+          "description": "務必使用安全的方法備份您的錢包。永遠不要與任何人分享您的秘密短語。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "設置好錢包後，點擊下方以刷新瀏覽器並加載擴展。",
+          "title": "刷新您的瀏覽器"
+        }
+      }
+    },
+    "core": {
+      "qr_code": {
+        "step1": {
+          "description": "我們建議您將Core添加到主屏幕，以便更快地訪問您的錢包。",
+          "title": "打開Core應用程序"
+        },
+        "step2": {
+          "description": "您可以使用我們的手機備份功能輕松備份您的錢包。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "掃描後，將出現連接提示，讓您連接您的錢包。",
+          "title": "點擊WalletConnect按鈕"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "我們建議將 Core 固定到任務欄，以便更快地訪問您的錢包。",
+          "title": "安裝 Core 擴展"
+        },
+        "step2": {
+          "description": "一定要使用安全的方法備份您的錢包。切勿與任何人分享您的秘密短語。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "設置好錢包後，點擊下方以刷新瀏覽器並加載擴展。",
+          "title": "刷新你的瀏覽器"
+        }
+      }
+    },
+    "fox": {
+      "qr_code": {
+        "step1": {
+          "description": "我們建議您將 FoxWallet 放到主屏幕上，以便更快的訪問。",
+          "title": "打開 FoxWallet 應用"
+        },
+        "step2": {
+          "description": "確保使用安全的方法備份您的錢包。永遠不要與任何人共享您的秘密短語。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "掃描後，將出現連接提示，讓您連接您的錢包。",
+          "title": "點擊掃描按鈕"
+        }
+      }
+    },
+    "frontier": {
+      "qr_code": {
+        "step1": {
+          "description": "我們建議將 Frontier 錢包放在您的主屏幕上，以便更快地訪問。",
+          "title": "打開 Frontier 錢包應用"
+        },
+        "step2": {
+          "description": "確保使用安全的方法備份您的錢包。永遠不要與任何人共享您的秘密短語。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "掃描後，將出現連接提示，讓您連接您的錢包。",
+          "title": "點擊掃描按鈕"
+        }
+      },
+      "extension": {
+        "step1": {
+          "description": "我們建議您將Frontier錢包固定到任務欄，以便更快地訪問您的錢包。",
+          "title": "安裝Frontier錢包擴展"
+        },
+        "step2": {
+          "description": "確保使用安全的方法備份您的錢包。永遠不要與任何人分享您的秘密短語。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "設置完成錢包後，點擊下方刷新瀏覽器並加載擴展。",
+          "title": "刷新你的瀏覽器"
+        }
+      }
+    },
+    "im_token": {
+      "qr_code": {
+        "step1": {
+          "title": "打開imToken應用",
+          "description": "將imToken應用放在您的主屏幕上，以更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "創建新錢包或導入已有的錢包。"
+        },
+        "step3": {
+          "title": "點擊右上角的掃描圖標",
+          "description": "選擇新連接，然後掃描二維碼並確認提示以進行連接。"
+        }
+      }
+    },
+    "metamask": {
+      "qr_code": {
+        "step1": {
+          "title": "打開 MetaMask 應用",
+          "description": "我們建議將 MetaMask 放在您的主屏幕上，以便更快地訪問。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "確保使用安全的方法備份您的錢包。永遠不要與任何人分享你的秘密短語。"
+        },
+        "step3": {
+          "title": "點擊掃描按鈕",
+          "description": "掃描後，將出現連接提示，以便你連接你的錢包。"
+        }
+      },
+      "extension": {
+        "step1": {
+          "title": "安裝 MetaMask 擴展",
+          "description": "我們建議將MetaMask固定在您的任務欄上，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "請務必使用安全的方法備份您的錢包。切勿與任何人分享您的秘密短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "一旦您設置好您的錢包，點擊下面刷新瀏覽器並加載擴展。"
+        }
+      }
+    },
+    "okx": {
+      "qr_code": {
+        "step1": {
+          "title": "打開OKX錢包應用程序",
+          "description": "我們建議將OKX錢包放在您的主屏幕上，以便更快地訪問。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "務必使用安全的方法備份您的錢包。千萬不要與任何人分享您的秘密短語。"
+        },
+        "step3": {
+          "title": "點擊掃描按鈕",
+          "description": "掃描後，將出現一個連接提示，讓您連接您的錢包。"
+        }
+      },
+      "extension": {
+        "step1": {
+          "title": "安裝 OKX 錢包擴展",
+          "description": "我們建議將 OKX 錢包固定到您的任務欄，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "務必使用安全的方法備份您的錢包。千萬不要與任何人分享您的秘密短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "一旦你設置好你的錢包，點擊下方刷新瀏覽器並加載擴展。"
+        }
+      }
+    },
+    "omni": {
+      "qr_code": {
+        "step1": {
+          "title": "打開Omni應用",
+          "description": "將Omni添加到你的主屏幕，以便更快地訪問你的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "創建新的錢包或導入現有的錢包。"
+        },
+        "step3": {
+          "title": "點擊QR圖標並掃描",
+          "description": "點擊首頁的二維碼圖標，掃描代碼並確認提示以連接。"
+        }
+      }
+    },
+    "token_pocket": {
+      "qr_code": {
+        "step1": {
+          "title": "打開TokenPocket應用",
+          "description": "我們建議將TokenPocket放在您的主屏幕上以便更快的訪問。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "一定要使用安全的方法備份您的錢包。切勿與任何人分享您的秘密短語。"
+        },
+        "step3": {
+          "title": "點擊掃描按鈕",
+          "description": "掃描後，將出現連接提示，供您連接錢包。"
+        }
+      },
+      "extension": {
+        "step1": {
+          "title": "安裝TokenPocket擴展",
+          "description": "我們建議將TokenPocket固定到任務欄，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入一個錢包",
+          "description": "一定要使用安全的方法備份您的錢包。絕對不要與任何人分享您的秘密短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "設置好您的錢包後，點擊下面刷新瀏覽器並加載擴展。"
+        }
+      }
+    },
+    "trust": {
+      "qr_code": {
+        "step1": {
+          "title": "打開Trust Wallet應用",
+          "description": "將Trust Wallet放在主屏幕上，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入一個錢包",
+          "description": "創建新的錢包或導入現有的錢包。"
+        },
+        "step3": {
+          "title": "在設置中點擊WalletConnect",
+          "description": "選擇新的連接，然後掃描二維碼並確認提示以進行連接。"
+        }
+      },
+      "extension": {
+        "step1": {
+          "title": "安裝Trust Wallet擴展程序",
+          "description": "在瀏覽器的右上角點擊並固定Trust Wallet以便於訪問。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "創建新的錢包或導入現有的錢包。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "設置Trust Wallet後，點擊下面以刷新瀏覽器並加載擴展程序。"
+        }
+      }
+    },
+    "uniswap": {
+      "qr_code": {
+        "step1": {
+          "title": "打開Uniswap應用",
+          "description": "將Uniswap錢包添加到您的主屏幕，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "創建新錢包或導入現有錢包。"
+        },
+        "step3": {
+          "title": "點擊QR圖標並掃描",
+          "description": "在您的主屏幕上點擊QR圖標，掃描代碼並確認提示以進行連接。"
+        }
+      }
+    },
+    "zerion": {
+      "qr_code": {
+        "step1": {
+          "title": "打開Zerion應用",
+          "description": "我們建議將Zerion放在您的主屏幕上以便更快地訪問。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "確保使用安全的方式備份你的錢包。絕對不要與任何人分享你的私人密語。"
+        },
+        "step3": {
+          "title": "點擊掃描按鈕",
+          "description": "你掃描後，會出現一個連接提示讓你連接你的錢包。"
+        }
+      },
+      "extension": {
+        "step1": {
+          "title": "安裝 Zerion 擴展",
+          "description": "我們建議將 Zerion 固定在你的任務欄以便更快訪問你的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "確保使用安全的方法備份你的錢包。永遠不要與任何人分享你的秘密短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "設置您的錢包後，點擊下面以刷新瀏覽器並加載擴展程序。"
+        }
+      }
+    },
+    "rainbow": {
+      "qr_code": {
+        "step1": {
+          "title": "打開 Rainbow 應用",
+          "description": "我們建議將 Rainbow 放在您的主屏幕上，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "您可以使用我們的備份功能在您的手機上輕松備份你的錢包。"
+        },
+        "step3": {
+          "title": "點擊掃描按鈕",
+          "description": "掃描後，將出現連接提示，讓您連接您的錢包。"
+        }
+      }
+    },
+    "enkrypt": {
+      "extension": {
+        "step1": {
+          "description": "我們建議將Enkrypt Wallet固定到任務欄，以便更快地訪問您的錢包。",
+          "title": "安裝Enkrypt Wallet擴展"
+        },
+        "step2": {
+          "description": "請確保使用安全方法備份您的錢包。永遠不要與任何人分享您的秘密短語。",
+          "title": "創建錢包或導入錢包"
+        },
+        "step3": {
+          "description": "設置錢包後，點擊下面刷新瀏覽器並加載擴展。",
+          "title": "刷新您的瀏覽器"
+        }
+      }
+    },
+    "frame": {
+      "extension": {
+        "step1": {
+          "description": "我們建議將Frame固定到任務欄，以便更快地訪問您的錢包。",
+          "title": "安裝Frame及其配套擴展"
+        },
+        "step2": {
+          "description": "務必使用安全的方法備份您的錢包。決不與任何人分享您的秘密短語。",
+          "title": "創建或導入錢包"
+        },
+        "step3": {
+          "description": "設置錢包後，點擊下方以刷新瀏覽器並加載擴展。",
+          "title": "刷新你的瀏覽器"
+        }
+      }
+    },
+    "one_key": {
+      "extension": {
+        "step1": {
+          "title": "安裝OneKey Wallet擴展",
+          "description": "我們建議將OneKey Wallet固定到任務欄，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "確保使用安全的方法備份您的錢包。切勿與任何人分享您的秘密短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "設置您的錢包後，點擊下方以刷新瀏覽器並加載擴展程序。"
+        }
+      }
+    },
+    "phantom": {
+      "extension": {
+        "step1": {
+          "title": "安裝 Phantom 擴展程序",
+          "description": "我們建議將 Phantom 固定到您的任務欄，以便更容易訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "確保使用安全的方法備份您的錢包。切勿與任何人分享您的秘密恢復短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "設置好您的錢包後，點擊下方以刷新瀏覽器並加載擴展程序。"
+        }
+      }
+    },
+    "rabby": {
+      "extension": {
+        "step1": {
+          "title": "安裝 Rabby 擴展程序",
+          "description": "我們建議將 Rabby 固定在您的任務欄，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "一定要使用安全的方法備份您的錢包。切勿與任何人分享您的密鑰短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "一旦您設置好您的錢包，點擊以下以刷新瀏覽器並加載擴展程序。"
+        }
+      }
+    },
+    "safeheron": {
+      "extension": {
+        "step1": {
+          "title": "安裝 Core 擴展",
+          "description": "我們建議將 Safeheron 固定在您的任務欄，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "確保使用安全的方法備份您的錢包。切勿與任何人分享您的秘密短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "設置好您的錢包後，點擊下方以刷新瀏覽器並加載擴展程序。"
+        }
+      }
+    },
+    "taho": {
+      "extension": {
+        "step1": {
+          "title": "安裝Taho擴展程序",
+          "description": "我們建議將Taho固定在您的任務欄上，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "確保使用安全的方法備份您的錢包。切勿與任何人分享您的秘密短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "設置好您的錢包後，點擊下方以刷新瀏覽器並加載擴展程序。"
+        }
+      }
+    },
+    "talisman": {
+      "extension": {
+        "step1": {
+          "title": "安裝 Talisman 擴展程序",
+          "description": "我們建議將 Talisman 固定在任務欄上，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入以太坊錢包",
+          "description": "確保使用安全的方法備份您的錢包。永遠不要與任何人分享您的恢復短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "設置好您的錢包後，點擊下方以刷新瀏覽器並加載擴展程序。"
+        }
+      }
+    },
+    "xdefi": {
+      "extension": {
+        "step1": {
+          "title": "安裝 XDEFI 錢包擴展程序",
+          "description": "我們建議將XDEFI錢包固定到您的任務欄，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "確保使用安全的方法備份您的錢包。永遠不要與任何人共享您的秘密短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "一旦你設置好你的錢包，點擊下面刷新瀏覽器和加載擴展。"
+        }
+      }
+    },
+    "zeal": {
+      "extension": {
+        "step1": {
+          "title": "安裝Zeal擴展程序",
+          "description": "我們建議將Zeal固定在您的任務欄上，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "務必使用安全的方法備份您的錢包。決不與任何人分享您的秘密短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "設置錢包後，點擊下方刷新瀏覽器並加載擴展。"
+        }
+      }
+    },
+    "safepal": {
+      "extension": {
+        "step1": {
+          "title": "安裝SafePal Wallet擴展程序",
+          "description": "點擊瀏覽器右上角並固定SafePal Wallet以便於快速訪問。"
+        },
+        "step2": {
+          "title": "創建或導入錢包。",
+          "description": "創建新錢包或導入現有錢包。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "一旦設置了SafePal錢包，點擊下方刷新瀏覽器並加載擴展程序。"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "打開SafePal錢包應用程序",
+          "description": "將SafePal錢包放在主屏幕上以更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "創建新錢包或導入現有錢包。"
+        },
+        "step3": {
+          "title": "在設置中點擊WalletConnect",
+          "description": "選擇新連接，然後掃描二維碼並確認提示以進行連接。"
+        }
+      }
+    },
+    "desig": {
+      "extension": {
+        "step1": {
+          "title": "安裝 Desig 擴展",
+          "description": "我們建議將 Desig 固定到任務欄，以便更輕鬆地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建一個錢包",
+          "description": "務必使用安全的方法備份您的錢包。決不與任何人分享您的秘密短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "設置錢包後，點擊下方刷新瀏覽器並加載擴展。"
+        }
+      }
+    },
+    "subwallet": {
+      "extension": {
+        "step1": {
+          "title": "安裝 SubWallet 擴展",
+          "description": "我們建議將 SubWallet 固定到任務欄，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "確保使用安全的方法備份您的錢包。永遠不要與任何人分享您的恢復短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "設置錢包後，點擊下方刷新瀏覽器並加載擴展。"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "打開 SubWallet 應用",
+          "description": "我們建議將 SubWallet 放置在主屏幕上，以便更快地訪問。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "務必使用安全的方法備份您的錢包。決不與任何人分享您的秘密短語。"
+        },
+        "step3": {
+          "title": "點擊掃描按鈕",
+          "description": "在您掃描後，將出現連接提示，供您連接您的錢包。"
+        }
+      }
+    },
+    "clv": {
+      "extension": {
+        "step1": {
+          "title": "安裝 CLV Wallet 擴展",
+          "description": "我們建議將 CLV Wallet 固定到任務欄，以便更快地訪問您的錢包。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "務必使用安全的方法備份您的錢包。決不與任何人分享您的秘密短語。"
+        },
+        "step3": {
+          "title": "刷新您的瀏覽器",
+          "description": "設置錢包後，點擊下方刷新瀏覽器並加載擴展。"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "打開 CLV 錢包應用",
+          "description": "我們建議將 CLV 錢包添加到您的主屏幕，以便更快地訪問。"
+        },
+        "step2": {
+          "title": "創建或導入錢包",
+          "description": "務必使用安全的方法備份您的錢包。決不與任何人分享您的秘密短語。"
+        },
+        "step3": {
+          "title": "點擊掃描按鈕",
+          "description": "在您掃描後，將出現連接提示，供您連接您的錢包。"
+        }
+      }
+    },
+    "okto": {
+      "qr_code": {
+        "step1": {
+          "title": "打開 Okto 應用",
+          "description": "將 Okto 添加到您的主屏幕以便快速訪問"
+        },
+        "step2": {
+          "title": "創建一個 MPC 錢包",
+          "description": "創建一個賬戶並生成一個錢包"
+        },
+        "step3": {
+          "title": "在設置中點擊WalletConnect",
+          "description": "點擊右上角的掃描二維碼圖標，並確認提示以連接。"
+        }
+      }
+    },
+    "ledger": {
+      "desktop": {
+        "step1": {
+          "title": "打開Ledger Live應用",
+          "description": "我們建議將Ledger Live放在您的主屏幕上，以便更快地訪問。"
+        },
+        "step2": {
+          "title": "設置您的Ledger",
+          "description": "設置一個新的Ledger或連接到一個現有的。"
+        },
+        "step3": {
+          "title": "連接",
+          "description": "你掃描後，會出現一個連接提示讓你連接你的錢包。"
+        }
+      },
+      "qr_code": {
+        "step1": {
+          "title": "打開Ledger Live應用",
+          "description": "我們建議將Ledger Live放在您的主屏幕上，以便更快地訪問。"
+        },
+        "step2": {
+          "title": "設置您的Ledger",
+          "description": "您可以同步桌面應用程式，或連接您的Ledger。"
+        },
+        "step3": {
+          "title": "掃描代碼",
+          "description": "點擊 WalletConnect 然後切換到掃描器。你掃描後，會出現一個連接提示讓你連接你的錢包。"
+        }
+      }
+    }
+  },
+  "echooo": {
+    "qr_code": {
+      "step1": {
+        "title": "打開echooo錢包應用程序",
+        "description": "我們建議將echooo錢包放在您的主屏幕上，以便更快地訪問。"
+      },
+      "step2": {
+        "title": "創建或導入錢包",
+        "description": "務必使用安全的方法備份您的錢包。千萬不要與任何人分享您的秘密短語。"
+      },
+      "step3": {
+        "title": "點擊掃描按鈕",
+        "description": "掃描後，將出現一個連接提示，讓您連接您的錢包。"
+      }
+    },
+    "extension": {
+      "step1": {
+        "title": "安裝 Echooo 錢包擴展",
+        "description": "我們建議將 Echooo 錢包固定到您的任務欄，以便更快地訪問您的錢包。"
+      },
+      "step2": {
+        "title": "創建或導入錢包",
+        "description": "務必使用安全的方法備份您的錢包。千萬不要與任何人分享您的秘密短語。"
+      },
+      "step3": {
+        "title": "刷新您的瀏覽器",
+        "description": "一旦你設置好你的錢包，點擊下方刷新瀏覽器並加載擴展。"
+      }
+    }
+  }
+}

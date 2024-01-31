@@ -30,7 +30,8 @@ export type Locale =
   | 'ua'
   | 'uk-UA'
   | 'zh'
-  | 'zh-CN';
+  | 'zh-CN'
+  | 'zh-HK';
 
 // biome-ignore format: locale keys
 export const i18n: I18nTypes.I18n = new I18n({
@@ -85,6 +86,8 @@ const fetchLocale = async (locale: Locale): Promise<any> => {
     case 'zh':
     case 'zh-CN':
       return (await import('./zh_CN.json')).default;
+    case 'zh-HK':
+          return (await import('./zh_HK.json')).default;
     default:
       return (await import('./en_US.json')).default;
   }
