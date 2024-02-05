@@ -1,5 +1,5 @@
 {
-  "name": "@rainbow-me/rainbow-button",
+  "name": "@echooo/rainbow-button",
   "description": "Rainbow connector button",
   "version": "0.2.0-beta.2",
   "files": [
@@ -34,7 +34,7 @@
     "typegen:watch": "tsc --emitDeclarationOnly --watch"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "workspace:*"
+    "@echooo/rainbowkit": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=17",

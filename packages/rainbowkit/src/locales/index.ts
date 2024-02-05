@@ -87,7 +87,7 @@ const fetchLocale = async (locale: Locale): Promise<any> => {
     case 'zh-CN':
       return (await import('./zh_CN.json')).default;
     case 'zh-HK':
-          return (await import('./zh_HK.json')).default;
+      return (await import('./zh_HK.json')).default;
     default:
       return (await import('./en_US.json')).default;
   }
