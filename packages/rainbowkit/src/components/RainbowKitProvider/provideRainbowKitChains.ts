@@ -155,7 +155,8 @@ const chainMetadataById = Object.fromEntries(
 
 export const provideRainbowKitChains = (chains: readonly [Chain, ...Chain[]]) =>
   chains.map((chain) => {
-    const defaultMetadata = chainMetadataById[chain.id] ?? {};
+    const obj= chain as any;
+    const defaultMetadata = obj.icon ??chainMetadataById[chain.id] ?? {};
     return {
       ...chain,
       name: defaultMetadata.name ?? chain.name, // Favor colloquial names
